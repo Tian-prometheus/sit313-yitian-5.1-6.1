@@ -1,0 +1,10 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    "./public",
+    "package.json",
+    "readme.md",
+    "pm2.json"
+  ],
+  "verbose": true
+}

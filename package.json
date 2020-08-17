@@ -1,0 +1,44 @@
+{
+  "name": "icrowd-task-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "better-npm-run start-dev",
+    "start": "node index.js"
+  },
+  "betterScripts": {
+    "start-dev": {
+      "command": "nodemon index.js",
+      "env": {
+        "PORT": 3098,
+        "NODE_ENV": "development"
+      }
+    },
+    "start": {
+      "command": "node index.js",
+      "env": {
+        "PORT": 8000,
+        "NODE_ENV": "production"
+      }
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.3",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "better-npm-run": "^0.1.1",
+    "body-parser": "^1.19.0",
+    "core-js": "^3.6.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.24",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4",
+    "sendgrid": "^5.2.3"
+  }
+}

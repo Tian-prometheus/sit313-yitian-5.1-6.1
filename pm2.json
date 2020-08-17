@@ -1,0 +1,18 @@
+{
+  "apps": [{
+    "name": "iCrowdTaskDB",
+    "script": "index.js",
+    "exec_mode": "cluster",
+    "instances": 1,
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "out_file": "/mnt/log/iCrowdTaskDB/out.log",
+    "error_file": "/mnt/log/iCrowdTaskDB/err.log",
+    "env": {
+      "PORT": 3098,
+      "NODE_ENV": "production"
+    }
+  }]
+}

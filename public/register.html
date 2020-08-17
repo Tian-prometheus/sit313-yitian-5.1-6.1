@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="./js/jquery.min.js"></script>
+  <link href="./css/index.css" rel="stylesheet" type="text/css">
+
+  <title>iCrowdTaskDB</title>
+
+</head>
+
+<body style=" background-color: #f4f4f4;">
+
+
+  <!-- sign up -->
+  <div class="row">
+
+    <div class="col"> </div>
+
+    <div class="col0 content">
+
+      <div class="row" style="font-size: 140%;">
+        Requester Registration
+      </div>
+      <div class="row" style="font-size: 120%;">
+        Create an iCrowdTsak Account
+      </div>
+      <div class="row">
+        <div class="col">
+          Country of residence*
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <select name="country">
+            <option>Choose from list</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">First Name*</div>
+        <div class="col">Last Name*</div>
+      </div>
+
+      <div class="row">
+        <div class="col"><input type="text" name="first_name"></div>
+        <div class="col"><input type="text" name="last_name" ></div>
+      </div>
+
+      <div class="row">Email*</div>
+      <div class="row">
+        <div class="col">
+          <input type="email" name="email">
+        </div>
+      </div>
+
+      <div class="row">Password*</div>
+      <div class="row">
+        <div class="col">
+          <input type="password" name="password">
+        </div>
+      </div>
+      <div class="row">Confirm password*</div>
+      <div class="row">
+        <div class="col">
+          <input type="password" name="confirmPwd">
+        </div>
+      </div>
+      <div class="row">Address*</div>
+      <div class="row">
+        <div class="col">
+          <input type="text" name="address1">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <input type="text" name="address2">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">City*</div>
+        <div class="col" style="white-space: nowrap;">State,Province Or Region *</div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <input type="text" name="city">
+        </div>
+        <div class="col">
+          <input type="text" name="region">
+        </div>
+      </div>
+      <div class="row">
+        ZIP / Postal code
+      </div>
+      <div class="row">
+        <div class="col">
+          <input type="text" name="zip_postal_code">
+        </div>
+      </div>
+      <div class="row">
+        Mobile phone number
+      </div>
+      <div class="row">
+        <div class="col">
+          <input type="number" name="tel">
+        </div>
+      </div>
+
+      <div class="btn">
+        <button onclick="createAccount()">Create Account</button>
+      </div>
+    </div>
+
+    <div class="col"> </div>
+
+
+  </div>
+
+
+
+</body>
+<script src="./js/index.js"></script>
+
+</html>
